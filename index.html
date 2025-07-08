@@ -93,7 +93,7 @@
             animation: bounce 2s infinite;
         }
 
-        .cta-button {
+        .cta-button,.resume-button {
             display: inline-block;
             background: linear-gradient(45deg, #ff6b6b, #ffa500);
             color: white;
@@ -106,6 +106,11 @@
         }
 
         .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .resume-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
         }
@@ -576,9 +581,15 @@
             <div class="container">
                 <div class="hero-emoji">👋</div>
                 <h1>Welcome to My Portfolio!</h1>
-                <p>I'm Rajeev Kumar, an aspiring Data Analyst with a passion for uncovering meaningful insights from raw information. 📈</p>
-                <p>Armed with proficiency in SQL, Power BI, Python, and Advanced Excel, I transform complex data into actionable strategies. 🔍</p>
-                <a href="#projects" class="cta-button">Explore My Work</a>
+                <p>I’m a final-year Computer Science student passionate about solving data problems using Python, SQL, and Power BI. 📈</p>
+                <p>I’ve built several end-to-end projects and aspire to work in data analytics and AI.🔍</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button">Explore My Work</a>
+                    <a href="https://drive.google.com/file/d/1cywQXZwXU-CbtOFI6wnvkc7k0ionISHI/view?usp=sharing" class="resume-button" onclick="downloadResume()">
+                        <i class="fas fa-download"></i>
+                        Resume
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -592,47 +603,47 @@
                     </div>
                     <div class="about-text">
                         <h2>About Me</h2>
-                        <p>My journey into the world of data analysis began with a Bachelor's degree in Computer Science(Data Science) and a passion for solving complex problems through data-driven insights. 🎓</p>
-                        <p>While studying at NIET, I discovered my innate talent for diving deep into data, which led me to develop my skills through hands-on projects and continuous learning.</p>
-                        <p>I have completed several projects that showcase my dedication, expertise, and innovative approach to data analysis. 💡</p>
-                        <p>I thrive on solving intricate data challenges to generate impactful results. Explore my portfolio to see how I provide practical solutions for complex data problems. 🌟</p>
-                        
-
+                        <p>I’m a Computer Science (Data Science) undergraduate from NIET, with a strong passion for uncovering insights from data to solve real-world problems.</p>
+                        <p>My journey began with a curiosity for numbers and patterns, which evolved into hands-on experience through academic projects and self-driven learning.</p>
+                        <p>I’ve successfully completed several data analysis projects that reflect my analytical thinking, technical skills, and commitment to continuous growth.</p>
+                        <p>I enjoy transforming raw data into actionable insights. Explore my portfolio to see how I solve complex data challenges with practical, results-oriented solutions.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Key Skills Section -->
-        <section id="skills" class="skills-section">
-            <div class="container">
-                <h2 class="section-title">Key Skills & Technologies</h2>
-                <div class="skills-grid">
-                    
-                    <div class="skill-category">
-                        <div class="skill-icon">💻</div>
-                        <h3>Programming Languages</h3>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <span class="skill-name">Python</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 90%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">SQL</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">Java</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 75%"></div>
-                                </div>
-                            </div>
+       <section id="skills" class="skills-section">
+    <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+            
+            <!-- Programming Languages -->
+            <div class="skill-category">
+                <div class="skill-icon">💻</div>
+                <h3>Programming Languages</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
                         </div>
                     </div>
+                    <div class="skill-item">
+                        <span class="skill-name">SQL</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Java</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
                     <div class="skill-category">
                         <div class="skill-icon">📊</div>
@@ -764,37 +775,37 @@
                     
                     <div class="project-card">
                         <div class="project-header">
-                            <div class="project-icon">🚗</div>
+                            <div class="project-icon">📈</div>
                             <div>
-                                <div class="project-title">EV Market Analysis</div>
-                                <div class="project-subtitle">Business Intelligence • Market Research</div>
+                                <div class="project-title">Sales Data Analysis</div>
+                                <div class="project-subtitle">Domain: FMCG | Functions: Sales & Finance</div>
                             </div>
                         </div>
                         <p class="project-description">
-                            Comprehensive analysis of the Electric Vehicle market in India, focusing on market penetration, 
+                            Comprehensive analysis of the Atliq Hardware Sales , focusing on market penetration, 
                             growth opportunities, and competitive landscape for strategic decision-making.
                         </p>
                         <div class="project-highlights">
                             <h4>Key Achievements:</h4>
                             <ul>
-                                <li>Identified top-performing EV manufacturers and market leaders</li>
-                                <li>Analyzed state-wise EV adoption patterns and penetration rates</li>
-                                <li>Developed quarterly growth trend analysis for strategic planning</li>
-                                <li>Created actionable insights for market expansion strategies</li>
+                                <li>Identify high and low-performing cities based on profit margin</li>
+                                <li>Track revenue and profit changes from 2017 to 2020</li>
+                                <li>View revenue and profit contribution by market</li>
+                                <li>Analyze revenue and profitability by customer.</li>
                             </ul>
                         </div>
                         <div class="project-tools">
                             <span class="tool-tag">Power BI</span>
                             <span class="tool-tag">Excel</span>
                             <span class="tool-tag">Power Query</span>
-                            <span class="tool-tag">DAX</span>
+                            <span class="tool-tag">MySQL</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link view-project">
+                            <a href="https://app.powerbi.com/links/sVVbYdvNz_?ctid=61363c43-8420-43ca-8f82-801627e16cdf&pbi_source=linkShare" class="project-link view-project">
                                 <i class="fas fa-external-link-alt"></i>
                                 Live Dashboard
                             </a>
-                            <a href="#" class="project-link view-github">
+                            <a href="https://github.com/0221csds146/Sales_Insights_Dashboard" class="project-link view-github">
                                 <i class="fab fa-github"></i>
                                 GitHub
                             </a>
