@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Portfolio-website
-Code related to my portfolio website
-=======
 # 💼 Rajeev Kumar – Portfolio Website
 
 Welcome to my personal portfolio website built to showcase my projects, skills, and achievements in Data Science, Machine Learning, Web Development, and more.
@@ -46,4 +42,3 @@ Some of the key projects included:
 
 
 
->>>>>>> 043c4b8934748c8ec883517d71e54fe7822d74aa
